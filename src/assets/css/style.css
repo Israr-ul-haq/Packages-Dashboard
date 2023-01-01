@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "arboria-black";
+  src: url(../fonts/arboria/Arboria-Black.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "arboria-bold";
+  src: url(../fonts/arboria/Arboria-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "arboria-book";
+  src: url(../fonts/arboria/Arboria-Book.ttf);
+}
+
+@font-face {
+  font-family: "arboria-light";
+  src: url(../fonts/arboria/Arboria-Light.ttf);
+}
+
+@font-face {
+  font-family: "arboria-thin";
+  src: url(../fonts/arboria/Arboria-Thin.ttf);
+}
+@font-face {
+  font-family: "arboria-medium";
+  src: url(../fonts/arboria/Arboria-Medium.ttf);
+  font-weight: 500;
+}
+
+.simplebar-track.simplebar-vertical {
+  top: 0;
+  width: 7px;
+}
+
+.rdt_TableHeadRow > div {
+  font-weight: 700;
+  color: #2d2d2e;
+  font-size: 15px;
+  font-family: "Poppins";
+  margin-bottom: 35px;
+}
+
+.rdt_TableHeadRow div {
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+  white-space: unset;
+  font-family: "Poppins";
+  font-weight: 800;
+}
+
+.rdt_TableBody > div {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b6b6b;
+}
+
+.swal2-popup {
+  width: 550px !important;
+  padding: 0 65px !important;
+}
+
+.swal2-close {
+  position: absolute !important;
+  top: -20px !important;
+  right: -20px !important;
+}
+
+.swal2-title {
+  color: #2d2d2e !important;
+  font-size: 16px !important;
+  margin-bottom: 35px !important;
+  font-weight: 800 !important;
+  font-family: "Poppins" !important;
+  padding: 0 !important;
+  margin-top: 40px !important;
+}
+
+.swal2-actions {
+  margin: 0;
+  margin: 0 -7.5px 40px -7.5px !important;
+}
+
+.swal2-actions button {
+  width: 45% !important;
+  margin: 0 7.5px !important;
+  padding: 0 7.5px !important;
+  height: 50px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-family: "Poppins" !important;
+  border-radius: 8px !important;
+}
+
+.swal2-actions button:focus {
+  box-shadow: none !important;
+}
+
+.swal2-styled.swal2-cancel {
+  border: 2px solid #1472c1 !important;
+  background-color: #fff !important;
+  color: #1472c1 !important;
+  transition: 0.2s ease all !important;
+}
+
+.swal2-styled.swal2-cancel:hover {
+  border: 2px solid #1472c1 !important;
+  background-color: #1472c1 !important;
+  color: #fff !important;
+  transition: 0.2s ease all !important;
+}
+
+.swal2-styled.swal2-confirm {
+  border: 2px solid #1472c1 !important;
+  background-color: #1472c1 !important;
+  color: #fff !important;
+  transition: 0.2s ease all !important;
+}
+
+.swal2-styled.swal2-confirm:hover {
+  border: 2px solid #1472c1 !important;
+  background: #fff !important;
+  color: #1472c1 !important;
+  transition: 0.2s ease all !important;
+}
+
+.paymentinput {
+  width: 100%;
+  min-width: 0px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  height: 50px;
+  border-radius: var(--chakra-radii-md);
+  border: 1px solid;
+  border-color: inherit;
+  background: inherit;
+  background-image: url("../images/Time.svg");
+  -webkit-background-position: 15px 50%;
+  background-position: 15px 50%;
+  box-shadow: 0 0 18px 0 #0000000f;
+  padding: 0 30px 0 60px;
+  font-family: Poppins;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  color: #515c6f;
+  margin-bottom: 10px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.paymentmodel .swal2-title {
+  margin-bottom: 30px !important;
+}
+
+.paymentmodel .swal2-html-container {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.rdt_Pagination span {
+  font-size: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins";
+  color: #6b6b6b;
+}
+
+.active .activesidebarimage {
+  opacity: 1;
+  position: relative;
+  visibility: visible;
+  color: #e7eaf0;
+}
+
+.active .icon_contain {
+  width: 100%;
+  background-color: #3381ca;
+  border-radius: 6px;
+  margin-right: 14px;
+  margin-left: 14px;
+}
+.icon_contain {
+  transition: 0.3s ease all !important;
+}
+
+.icon_contain:hover {
+  width: 100%;
+  background-color: #3381ca;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-right: 14px;
+  margin-left: 14px;
+  transition: 0.3s ease all !important;
+}
+
+.menubutton span {
+  display: flex;
+  align-items: center;
+}
+
+.chakra-select__wrapper {
+  padding: 0 !important;
+}
+
+.chakra-select {
+  padding: 10px 30px 10px 45px !important;
+}
+
+.error_validation {
+  color: red;
+  margin-top: 5px;
+}
+.rdt_TableCell {
+  padding-right: 23px !important;
+}
+.fc-daygrid-day-frame.fc-scrollgrid-sync-inner:hover {
+  border: 1px solid #1472c1;
+}
+.calender_section {
+  background-color: #1472c1;
+  width: 100%;
+  color: #e7eaf0;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: "Poppins";
+  padding: 10px 10px;
+}
+
+input[disabled],
+input[aria-disabled="true"],
+input[data-disabled] {
+  opacity: 1 !important;
+}
+.Add_Button {
+  text-align: end;
+  padding-right: 80px;
+  font-family: "Poppins";
+  font-size: 15px;
+  color: #ec2423;
+  font-weight: 700;
+}
+.swal2-select {
+  margin-bottom: 30px;
+  box-shadow: 0px 8px 15px #e7eaf0;
+  border-radius: 12px;
+}
+.swal2-select:focus {
+  border: none;
+  outline: none;
+}
+.Label_image {
+  display: flex;
+  gap: 10px;
+}
+.cancel_img {
+  right: 0;
+  margin-top: -70px;
+  margin-left: -5px;
+}
+.sc-crHmcD.bNgcsh.rdt_TableCol_Sortable:last-child {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+button.fc-next-button.fc-button.fc-button-primary {
+  background-color: #135094;
+  border-color: #135094;
+}
+button.fc-prev-button.fc-button.fc-button-primary {
+  background-color: #135094;
+  border-color: #135094;
+}
+button.fc-today-button.fc-button.fc-button-primary {
+  background-color: #135094;
+  opacity: 1 !important;
+  border-color: #135094 !important;
+}
+.searchinput {
+  width: 100%;
+  min-width: 0px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  height: 50px;
+  border-radius: var(--chakra-radii-md);
+  border-color: inherit;
+  background: inherit;
+  background-image: url("../images/search-image.svg");
+  -webkit-background-position: 15px 50%;
+  background-position: 15px 50%;
+  box-shadow: 0 0 18px 0 #0000000f;
+  padding: 0 30px 0 60px;
+  font-family: Poppins;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  color: #515c6f;
+  margin-bottom: 10px;
+}
+.blfVSm,
+.bWTWQu,
+.dqzAlz,
+.fQmYxz {
+  display: none;
+}
+.events_rows:nth-child(even) {
+  background: #fafafa;
+}
+.events_rows:nth-child(odd) {
+  background: #fff;
+}
